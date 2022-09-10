@@ -49,3 +49,33 @@ footer {
   justify-content: center;
   bottom: 0;
 }
+
+#login { /*seletor por ID*/
+  display:flex;
+  align-items: center;
+  position: center;
+  background-color: rgba(88, 88, 63, 0.808);
+}
+
+* div { /*seletor universal para divs*/
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div.titulo {
+  display: flex;
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div label {
+  display: flex;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+* input {
+  margin-top: 5px;
+  position: center;
+}
+ 
